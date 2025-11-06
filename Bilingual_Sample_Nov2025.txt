@@ -1,0 +1,3 @@
+# Exercise 1: Translation & Tagging
+print("Translation: Please optimize this algorithm to improve convergence speed")
+print("Tag: Yes")
