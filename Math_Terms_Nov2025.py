@@ -18,3 +18,9 @@ import numpy as np
 y_hat, y, x1 = 0.7311, 1, 2
 gradient = (y_hat - y) * x1
 print(f"Gradient: {gradient:.4f}")
+# Buffer Task Answers
+print("1. Sigmoid for z=0: 0.5")
+print("2. Log loss is high because 0.1 is a confident wrong prediction for y=1.")
+print("3. Eta (η) is the step size in gradient descent.")
+print("4. Shape of A·B: 2×2")
+print("5. Log loss measures prediction error, penalizing confident mistakes.")
