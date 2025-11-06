@@ -13,3 +13,8 @@ import numpy as np
 y, y_hat = 1, 0.7311
 loss = -np.log(y_hat)
 print(f"Log Loss: {loss:.4f}")
+# Gradient Calculation
+import numpy as np
+y_hat, y, x1 = 0.7311, 1, 2
+gradient = (y_hat - y) * x1
+print(f"Gradient: {gradient:.4f}")
